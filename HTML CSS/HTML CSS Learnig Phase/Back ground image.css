@@ -1,0 +1,23 @@
+.back{
+    height: 500px;
+    width: 500px;
+    border: 5px solid rgb(126, 123, 151);
+    margin: auto;
+    /* background: #e4d1e0; */
+    background-image: url('Images/Cover\ Photo.jpg');
+    background-position: center;
+    background-size: 100%;
+
+}
+p{
+    color: rgb(106, 4, 75);
+}
+h1{
+    color: rgb(164, 72, 129);
+}
+button{
+    width: 100px;
+    color: blue;
+    size: 50px;
+    background: linear-gradient(45deg, green,Yellow);
+}

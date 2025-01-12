@@ -1,0 +1,25 @@
+.line-1{
+    height: auto;
+    width: auto;
+    border: 5px solid rebeccapurple ;
+    background-color: rgb(121, 132, 64);
+}
+.line-2{
+    height: auto;
+    width: auto;
+    margin-left: 10px;
+    border: 5px solid rgb(20, 14, 185) ;
+    background-color: rgb(114, 134, 15);
+}
+.line{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+
+    height: 500px;
+    width: 500px;
+    border: 5px solid goldenrod;
+    align-items: center;
+    flex-wrap: wrap;
+}

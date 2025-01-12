@@ -1,0 +1,51 @@
+.box{
+    height: 200px;
+    width: 200px;
+    color:blue;
+    margin: 50px;
+}
+.box1{
+    border: 10px solid black;
+}
+.box2{
+    border: 10px solid rgb(222, 13, 100);
+}
+.box3{
+    border: 10px solid rgb(226, 234, 12);
+}
+.fixed-box{
+    height: 20px;
+    width: 100px;
+    margin: 50px;
+    color: blueviolet;
+    border: 10px solid rgb(12, 234, 16);
+
+    position: fixed;
+    left: 250px; 
+}
+.green{
+    height: 120px;
+    width: 180px;
+    margin: 40px;
+    background-color: green;
+    border: 2px;
+    position: inherit;
+}
+.red{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: red;
+
+    /* inner begining */
+    /* position: inherit; */
+
+    /* Outer position */
+    /* position: absolute; */
+
+
+    position: relative;
+    /* right: 50px; */
+    left: 65px;
+    top: 35px;
+}

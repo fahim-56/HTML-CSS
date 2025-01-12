@@ -1,0 +1,10 @@
+.name1{
+    color: rgb(21, 0, 255);
+    /* display: none; */
+    /* display: block; */
+    display: inline;
+}
+.name2{
+    color: blueviolet;
+    display: inline;
+}

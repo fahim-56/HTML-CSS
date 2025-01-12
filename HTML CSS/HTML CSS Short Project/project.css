@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    background-color: rgb(15, 15, 58);
+    padding: 0px;
+}
+
+.logo {
+    width: 100px;
+    height: 70px;
+}
+
+.icons {
+    margin-top: 30px;
+    color: blanchedalmond;
+    display: flex;
+    gap: 80px;
+}
+
+li:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    /* background-image: url(Images/Al_AQsa_AI.jpg); */
+}
+
+.bio {
+    margin-top: 100px;
+    width: 500px;
+}
+
+.profile_pic {
+    width: 250px;
+    height: 350px;
+    margin-top: 0px;
+}
+
+button {
+    color: aliceblue;
+    background-color: rgb(35, 41, 216);
+    height: 30px;
+    width: 100px;
+}
+
+button:hover {
+    background-color: rgb(14, 139, 112);
+    color: rgb(224, 237, 236);
+    cursor: pointer;
+}
+
+.web {
+    size: 100%;
+}
+
+.Servise_Title {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 10px greenyellows;
+}
+
+.Services {
+
+    margin-left: 20px;
+    width: 300px;
+    height: 400px;
+    box-shadow: 4px 4px 8px blue;
+    border-radius: 10px;
+}
+
+.service {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wh {
+    color: blue;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(174, 246, 248);
+}
+
+.kh {
+    color: blue;
+    width: 180px;
+    height: 50px;
+    background-color: rgb(174, 246, 248);
+}
+
+.Contact {
+    height: 30px;
+    width: 300px;
+    margin-left: 100px;
+}
+.opinion {
+    height: 100px;
+    width: 720px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.content-me{
+    margin-top: 100px;
+    text-align: center;
+}
+.submit{
+    color: blanchedalmond;
+    background-color: rgb(58, 69, 198);
+    height: 30px;
+    width: 50px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.CONTACT{
+    background: #c7e8f0;
+}
+
+@media screen and (min-width:400px) and (max-width:767px){
+  body{
+    background-color: rgb(243, 223, 243);
+
+  }
+  .service{
+    display: block;
+  }
+  .Services{
+    margin: 50px;
+    margin-left: 150PX;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:998px){
+  body{
+    background-color: rgb(199, 218, 246);
+  }
+  .service{
+    display: block;
+  }
+  .Services{
+    margin: 50px;
+    margin-left: 250PX;
+  }
+}
+
+
